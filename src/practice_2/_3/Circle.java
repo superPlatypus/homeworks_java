@@ -1,7 +1,7 @@
 package practice_2._3;
 
 public class Circle {
-    private Point point = new Point();
+    public Point point = new Point();
 
     public Circle() {
     }
@@ -16,20 +16,25 @@ public class Circle {
         this.radius = radius;
     }
 
-    public double getX() {
-        return point.getX();
+    @Override
+    public String toString() {
+        return "Center: (" + point.getX() + ";" + point.getY() + ")" + "\nRadius: " + radius;
     }
 
-    public void setX(double x) {
-        point.setX(x);
-    }
-
-    public double getY() {
-        return point.getY();
-    }
-
-    public void setY(double y) {
-        point.setY(y);
-    }
+    //    public double getX() {
+//        return point.getX();
+//    }
+//
+//    public void setX(double x) {
+//        point.setX(x);
+//    }
+//
+//    public double getY() {
+//        return point.getY();
+//    }
+//
+//    public void setY(double y) {
+//        point.setY(y);
+//    }
 
 }

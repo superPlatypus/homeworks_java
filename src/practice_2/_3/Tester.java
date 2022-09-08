@@ -4,19 +4,24 @@ import java.util.Scanner;
 
 public class Tester {
     public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//        int size = sc.nextInt();
-        Circle[] circle = new Circle[10];
-
-        for (int i = 0; i < 10; i++) {
-            circle[i].setRadius(5);
-            circle[i].setX(10);
-            circle[i].setY(15);
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
+        Circle[] circle = new Circle[size];
+        for (int i = 0; i < size; i++) {
+            circle[i] = new Circle();
+            circle[i].point = new Point(i,i);
+            circle[i].setRadius(i*i);
+            System.out.println(circle[i]);
+            System.out.println("-----------");
         }
 
-        System.out.println("X: " + circle[0].getX());
-        System.out.println("Y: " + circle[0].getY());
-        System.out.println("Radius: " + circle[0].getRadius());
+
+
+//        Circle circle = new Circle();
+//        circle.point = new Point(10,10);
+//        circle.setRadius(15);
+//        System.out.println(circle);
+
 
 
 
