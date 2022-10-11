@@ -21,6 +21,7 @@ public class Circle {
         return "Center: (" + point.getX() + ";" + point.getY() + ")" + "\nRadius: " + radius;
     }
 
+
     //    public double getX() {
 //        return point.getX();
 //    }

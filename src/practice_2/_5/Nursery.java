@@ -9,6 +9,7 @@ public class Nursery {
         int count = sc.nextInt();
         Dog[] nursery = new Dog[count];
         for (int i = 0; i < count; i++) {
+            System.out.println("Enter age and name:");
             nursery[i] = new Dog(sc.nextInt(), sc.nextLine());
         }
         for (int j = 0; j < count; j++) {
