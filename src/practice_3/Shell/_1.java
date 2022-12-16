@@ -29,7 +29,11 @@ public class _1 {
 
     private static void _3() {
         Double D = 3.14;
-        //System.out.println(D.value);
+        System.out.println("To int: " + D.intValue());
+        System.out.println("To byte: " + D.byteValue());
+        System.out.println("To float: " + D.floatValue());
+        System.out.println("To short: " + D.shortValue());
+        System.out.println("To long: " + D.longValue());
     }
 
     private static void _2() {
