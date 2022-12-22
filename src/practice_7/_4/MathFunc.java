@@ -3,15 +3,16 @@ package practice_7._4;
 public class MathFunc implements MathCalculate{
     MathFunc() {}
     @Override
-    public double pow(double num, int grad) {
+    public int pow(int num, int grad) {
+        int num_copy = num;
         if (grad == 0) { return 1; }
         if (grad == 1) { return num; }
-        for (int i = 0; i < grad; i++) { num = num  * grad; }
+        for (int i = 0; i < grad - 1; i++){ num = num  * num_copy; }
         return num;
     }
 
     @Override
-    public double abs(double num) {
+    public int abs(int num) {
         if (num > 0 ) return num;
         else return num *= -1;
     }

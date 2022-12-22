@@ -15,6 +15,6 @@ public class ArrayTest {
         UniversalArray<Long> arr3 = new UniversalArray<>(2);
         arr3.showArray();
         System.out.println();
-        System.out.println(arr3.getElement(234));
+        System.out.println(arr3.getElement(0));
     }
 }

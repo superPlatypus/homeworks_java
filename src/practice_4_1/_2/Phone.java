@@ -6,7 +6,6 @@ public class Phone {
     private double weight;
 
     public Phone(String model, String number, double weight) {
-        //new Phone(model,number);
         this(model, number);
         this.weight = weight;
     }

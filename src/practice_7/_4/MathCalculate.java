@@ -1,7 +1,7 @@
 package practice_7._4;
 
 public interface MathCalculate {
-    double pow(double num, int grad);
-    double abs(double num);
+    int pow(int num, int grad);
+    int abs(int num);
     double PI();
 }

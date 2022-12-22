@@ -27,11 +27,11 @@ public class timesOfYear {
         }
 
         System.out.println("Все времена года: \n");
-        Years[] var4 = timesOfYear.Years.values();
-        int var5 = var4.length;
+        Years[] q = timesOfYear.Years.values();
 
-        for(int var6 = 0; var6 < var5; ++var6) {
-            Years times = var4[var6];
+
+        for(int i = 0; i < q.length; ++i) {
+            Years times = q[i];
             System.out.println("" + times + "; Temperature = " + times.getAverageTemp() + "; " + times.getDescription());
         }
 

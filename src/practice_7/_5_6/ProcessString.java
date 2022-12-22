@@ -18,7 +18,7 @@ public class ProcessString implements StringFunctions{
     public String modifySTR(String str) {
         StringBuilder newStr = new StringBuilder();
         for (int i = 1; i < str.length(); i += 2){
-            if (i < str.length()) { newStr.append(str.charAt(i)); }
+            newStr.append(str.charAt(i));
         }
         return newStr.toString();
     }

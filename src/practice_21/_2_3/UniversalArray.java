@@ -33,15 +33,4 @@ public class UniversalArray<T> {
         }
     }
 
-//    public static void fillByCatalog(String path) {
-//        File f = new File(path);
-//        String[] fileArray = null;
-//        if (f.exists()||f.isDirectory()) fileArray = f.list(null);
-//        else System.out.print("Catalog not found");
-//        ArrayList<String> list = new ArrayList(Arrays.asList(fileArray));
-//
-//        for (int i =0; i < list.size(); i++) {
-//            if(i<5) System.out.println(list.get(i));
-//        }
-//    }
 }

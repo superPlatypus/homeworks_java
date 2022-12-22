@@ -19,50 +19,7 @@ public class Address {
         this.house= info[4];
         this.building = info[5];
         this.flat = info[6];
-//        int count = 0;
-//        for (int i = 0; i < s.length(); i++) {
-//            if (count == 0) {
-//                if (s.charAt(i) != separator) {
-//                    this.country += s.charAt(i);
-//                }
-//                else count += 1;
-//            }
-//            if (count == 1) {
-//                if (s.charAt(i) != separator) {
-//                    this.district += s.charAt(i);
-//                }
-//                else count += 1;
-//            }
-//            if (count == 2) {
-//                if (s.charAt(i) != separator) {
-//                    this.city += s.charAt(i);
-//                }
-//                else count += 1;
-//            }
-//            if (count == 3) {
-//                if (s.charAt(i) != separator) {
-//                    this.street += s.charAt(i);
-//                }
-//                else count += 1;
-//            }
-//            if (count == 4) {
-//                if (s.charAt(i) != separator) {
-//                    this.house += s.charAt(i);
-//                }
-//                else count += 1;
-//            }
-//            if (count == 5) {
-//                if (s.charAt(i) != separator) {
-//                    this.building += s.charAt(i);
-//                }
-//                else count += 1;
-//            }
-//            if (count == 6) {
-//                if (s.charAt(i) != separator) {
-//                    this.flat += s.charAt(i);
-//                }
-//                else count += 1;
-//            }
+
     }
 
     public String getCountry() { return country; }
